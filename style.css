@@ -1,0 +1,42 @@
+body {
+  font-family: "Open Sans", sans-serif;
+
+  margin: 0;
+}
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  background: whitesmoke;
+}
+#title {
+  margin-top: auto 1rem;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  height: auto;
+  max-width: 80vw;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info h3 {
+  text-align: center;
+  margin: 2rem auto;
+}
+#tribute-info {
+  text-align: justify;
+  width: 80vw;
+  /* line-height: 1.5; */
+}
+#tribute-info p::first-letter {
+  font-size: 250%;
+  float: left;
+  padding: 6px 3px;
+}
